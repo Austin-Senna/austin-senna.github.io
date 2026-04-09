@@ -30,8 +30,8 @@ I am an undergraduate at Columbia University studying computer science, focused 
 
 ## Current Roles
 
-- Data Agents Research Assistant, Columbia Data, Agents, and Processes Lab
-- Machine Learning Research Assistant, Columbia Zuckerman Institute
+- Data Agents Research Assistant, [Columbia Data, Agents, and Processes Lab (DAPLab)](https://daplab.cs.columbia.edu/)
+- Machine Learning Research Assistant, [Columbia Zuckerman Institute](https://zuckermaninstitute.columbia.edu/)
 
 ## Experience
 
@@ -39,4 +39,4 @@ I am an undergraduate at Columbia University studying computer science, focused 
 
 ## Featured Projects
 
-- `ResearcherX`: AI-powered IDE and GraphRAG engine for academic writing.
+- [`ResearcherX`](https://austin-senna.github.io/researcherx-pitch/): AI-powered IDE and GraphRAG engine for academic writing.

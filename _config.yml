@@ -10,13 +10,10 @@ contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Computer science student and research assistant building agentic systems, ML pipelines, and data infrastructure.
-footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-show_copyright: false
+footer_text:
 keywords: austin senna wijaya, computer science, machine learning, data engineering, graph rag, portfolio # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: githubprof.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://austin-senna.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root

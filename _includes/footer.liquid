@@ -1,15 +1,4 @@
-{% assign show_copyright = site.show_copyright %}
-{% if show_copyright == nil %}
-  {% assign show_copyright = true %}
-{% endif %}
-
 {% capture footer_contents %}
-  {% if show_copyright %}
-    &copy; Copyright {{ site.time | date: '%Y' }}
-    {{ site.first_name }}
-    {{ site.middle_name }}
-    {{ site.last_name }}.
-  {% endif %}
   {{ site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
