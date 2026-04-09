@@ -23,11 +23,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-researcherx",
+        },{id: "projects-lakeagent",
+          title: 'LakeAgent',
+          description: "Deep research over data lakes with verifiable, provenance-backed answers.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lakeagent/";
+            },},{id: "projects-researcherx",
           title: 'ResearcherX',
           description: "AI-powered IDE and GraphRAG engine for academic writing.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/researcherx/";
+            },},{id: "projects-targeted-neural-audio-embeddings",
+          title: 'Targeted Neural Audio Embeddings',
+          description: "Task-targeted brain encoding from Qwen-Audio speech features to cortical activations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/targeted-neural-audio-embeddings-for-cortical-prediction/";
             },},{id: "projects-unstructured-cloud-elt",
           title: 'Unstructured Cloud ELT',
           description: "Multimodal ELT pipeline for unstructured business communication data.",
