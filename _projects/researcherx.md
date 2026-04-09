@@ -5,6 +5,7 @@ description: AI-powered IDE and GraphRAG engine for academic writing.
 importance: 1
 category: ai-data-swe
 github: https://github.com/Austin-Senna/ResearcherX
+external: https://austin-senna.github.io/researcherx-pitch/
 ---
 
 `ResearcherX` is an AI-powered IDE for academic writing with real-time logical contradiction linting.

@@ -4,7 +4,7 @@ title: LakeAgent
 description: Deep research over data lakes with verifiable, provenance-backed answers.
 importance: 1
 category: research
-redirect: https://daplab.cs.columbia.edu/projects/lakeagent/
+external: https://daplab.cs.columbia.edu/projects/lakeagent/
 ---
 
 `LakeAgent` extends deep-research agents to operate over both structured and unstructured data at data-lake scale.
