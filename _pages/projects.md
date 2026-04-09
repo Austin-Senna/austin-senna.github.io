@@ -5,7 +5,7 @@ permalink: /projects/
 description: AI, data, and software engineering projects.
 nav: true
 nav_order: 3
-display_categories: [ai-data-swe]
+display_categories: [research, ai-data-swe]
 horizontal: false
 ---
 
@@ -14,8 +14,14 @@ horizontal: false
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
+  {% assign category_label = category %}
+  {% if category == 'research' %}
+    {% assign category_label = 'Research' %}
+  {% elsif category == 'ai-data-swe' %}
+    {% assign category_label = 'Personal' %}
+  {% endif %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category">{{ category }}</h2>
+    <h2 class="category category-{{ category }}">{{ category_label }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
