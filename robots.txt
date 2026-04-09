@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://austin-senna.github.io/sitemap.xml
