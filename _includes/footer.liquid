@@ -1,8 +1,16 @@
+{% assign show_copyright = site.show_copyright %}
+{% if show_copyright == nil %}
+  {% assign show_copyright = true %}
+{% endif %}
+
 {% capture footer_contents %}
-  &copy; Copyright {{ site.time | date: '%Y' }}
-  {{ site.first_name }}
-  {{ site.middle_name }}
-  {{ site.last_name }}. {{ site.footer_text }}
+  {% if show_copyright %}
+    &copy; Copyright {{ site.time | date: '%Y' }}
+    {{ site.first_name }}
+    {{ site.middle_name }}
+    {{ site.last_name }}.
+  {% endif %}
+  {{ site.footer_text }}
   {% if site.impressum_path %}
     <a href="{{ site.url }}{{ site.baseurl }}{{ site.impressum_path }}">Impressum</a>.
   {% endif %}
@@ -10,14 +18,15 @@
     Last updated: {{ 'now' | date: '%B %d, %Y' }}.
   {% endif %}
 {% endcapture %}
+{% assign footer_contents = footer_contents | strip %}
 
-{% if site.footer_fixed %}
+{% if footer_contents != '' and site.footer_fixed %}
   <footer class="fixed-bottom" role="contentinfo">
     <div class="container mt-0">
       {{ footer_contents }}
     </div>
   </footer>
-{% else %}
+{% elsif footer_contents != '' %}
   <footer class="sticky-bottom mt-5" role="contentinfo">
     {% if site.newsletter.enabled %}
       {% include newsletter.liquid %}

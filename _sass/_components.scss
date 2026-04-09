@@ -59,13 +59,13 @@ ul.task-list input[type="checkbox"] {
   width: 100%;
 
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     font-family: monospace;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0.2rem 0;
     }
   }
 }

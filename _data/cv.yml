@@ -1,189 +1,127 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Austin Senna Wijaya
+  label: Computer Science Student and Research Assistant
+  email: asw2215@columbia.edu
+  location: New York, NY
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Undergraduate researcher focused on agentic systems, machine learning, and large-scale data infrastructure.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: Austin-Senna
     - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: austin-senna
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Columbia University
+        location: New York, NY
+        area: Computer Science
+        studyType: Bachelor of Science
+        start_date: 2024-08
+        end_date: 2028-05
         highlights:
-          - Description 1.
-          - Description 2.
-
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+          - "GPA: 4.25/4.0"
+          - Full-tuition scholarship recipient.
+          - Dean's List.
+          - "Relevant coursework: Natural Language Processing, Data Structures and Algorithms, Systems Programming, Linear Algebra and Probability, Competitive Programming."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Columbia Data, Agents, and Processes Lab
+        position: Data Agents Research Assistant
+        location: New York, NY
+        start_date: 2025-12
         highlights:
-          - Relativity
-          - Description 2.
+          - "Contributing to DataSeek, a system providing infrastructure for deep-research agents to operate over TBs of multimodal data; submitted a benchmark paper to ICML 2026."
+          - "Re-architected a legacy discovery tool into a scalable Agentic GraphRAG engine; reduced retrieval complexity to O(N log K) via LSH and Min-Heap Top-K pruning, increasing accuracy by 10% across a 10TB S3 data lake."
+          - "Engineered a parallelized benchmark evaluation framework using AWS Bedrock to test autonomous data tasks and multi-step reasoning, and added agentic tool capabilities to DeepSeek R1."
+          - "Tech stack: Python, SQL, AWS (EC2, S3, Bedrock), Docker."
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Columbia Zuckerman Institute
+        position: Machine Learning Research Assistant
+        location: New York, NY
+        start_date: 2025-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Trained linear probes via Ridge Regression on external audio benchmarks to decompose Qwen-Audio-2-7B's latent space into orthogonal feature vectors and map embeddings to ECoG neural signals."
+          - "Engineered an end-to-end GPU-optimized pipeline on HPC clusters (NCSA Delta) to parallelize TTS generation and extract penultimate layer embeddings across hundreds of thousands of inferences."
+          - "Tech stack: Python, PyTorch, HuggingFace, Scikit-learn, NumPy."
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Ruangguru
+        position: Data Engineering Intern
+        location: Jakarta, Indonesia
+        start_date: 2025-06
+        end_date: 2025-08
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+          - "Consolidated millions of payment events into user sessions in BigQuery, producing a product-level funnel used to diagnose major drop-off points."
+          - "Automated large-scale Google Review scraping and sentiment analysis with Puppeteer and HuggingFace for continuous customer satisfaction tracking."
+          - "Processed hundreds of thousands of tutor scheduling events with Apps Script and BigQuery to generate a real-time interactive Looker Studio tutor availability heatmap."
+          - "Tech stack: Google Cloud (BigQuery, Looker Studio), Apps Script, Puppeteer, HuggingFace."
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: "ResearcherX: AI-Powered IDE and GraphRAG Engine"
+        url: https://github.com/Austin-Senna/ResearcherX
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - "Developed an AI-powered IDE for academic writing with real-time logical contradiction linting, using a dual-routing FastAPI and litellm pipeline to optimize latency and cost."
+          - "Engineered an asynchronous hybrid-search engine with Neo4j and LanceDB featuring node-level provenance and Cypher-based garbage collection for graph integrity."
+          - "Tech stack: Python (FastAPI), TypeScript (Next.js), Neo4j (Cypher), LanceDB, litellm, ProseMirror."
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Untukmu Karyamu (Tencent Hackathon)
+        url: https://github.com/arkankau/umkm
+        highlights:
+          - "Placed 2nd at Tencent Kepler Plan S3 Competition 2025 with Best Code, Best Product Idea, and Popularity Award."
+          - "Architected a generative web-builder with Next.js and Gemini API to automate deployment to Tencent EdgeOne for MSMEs."
+          - "Tech stack: Next.js, Supabase, Puppeteer, EdgeOne Pages."
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Unstructured Cloud ELT Pipeline
+        url: https://github.com/Austin-Senna/umkm360
+        highlights:
+          - "Built an automated ELT pipeline to ingest chat screenshots into BigQuery using Vision AI for text extraction."
+          - "Implemented sentiment and intent classification with BigQuery ML to support analytics and automated response workflows."
+          - "Tech stack: BigQuery, Gemini API, Looker Studio, Vision AI, Python."
+
+    Skills:
+      - name: Languages
+        keywords:
+          - Python
+          - SQL
+          - JavaScript
+          - Java
+          - C
+          - Rust
+
+      - name: Libraries and Frameworks
+        keywords:
+          - Pandas
+          - NumPy
+          - PyTorch
+          - Scikit-learn
+          - Puppeteer
+          - Selenium
+          - BeautifulSoup
+          - React
+          - Next.js
+          - Node.js
+
+      - name: Cloud and Databases
+        keywords:
+          - Google Cloud (BigQuery, Looker Studio)
+          - AWS (EC2, S3, Bedrock)
+          - Supabase
+          - PostgreSQL
+          - MongoDB
+
+      - name: Tools
+        keywords:
+          - GitHub
+          - Docker
+          - Claude Code
+          - n8n
+          - Copilot
+          - Arduino
+          - Notion
+
+    Honors and Scholarships:
+      - bullet: "**Hack@Brown 2026:** Finalist and awarded 'Strongest Product Thinking,' working with Google Ventures and Partiful."
+      - bullet: "**Clash of Champions Season 2:** Top 9 in an academic survival show for top Indonesian students."
+      - bullet: "**Indonesia Maju Scholarship:** Full-ride scholarship recipient (Ministry of Education of Indonesia), 1 of 350 recipients."
+      - bullet: "**55th International Chemistry Olympiad 2023:** Final stage (10th rank) for national team selection."

@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Austin-Senna
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - Austin-Senna/austin-senna.github.io
+  - Austin-Senna/ResearcherX
