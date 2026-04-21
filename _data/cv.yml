@@ -63,14 +63,21 @@ cv:
         highlights:
           - "Developed an AI-powered IDE for academic writing with real-time logical contradiction linting, using a dual-routing FastAPI and litellm pipeline to optimize latency and cost."
           - "Engineered an asynchronous hybrid-search engine with Neo4j and LanceDB featuring node-level provenance and Cypher-based garbage collection for graph integrity."
+          - "Finalist (Top 6) at the Millard Chan Technology '99 Startup Competition 2026 and 2nd place at the Columbia Lion Cage Startup Competition 2026."
           - "Tech stack: Python (FastAPI), TypeScript (Next.js), Neo4j (Cypher), LanceDB, litellm, ProseMirror."
 
-      - name: Untukmu Karyamu (Tencent Hackathon)
-        url: https://github.com/arkankau/umkm
+      - name: LakeAgent
+        url: https://daplab.cs.columbia.edu/projects/lakeagent/
         highlights:
-          - "Placed 2nd at Tencent Kepler Plan S3 Competition 2025 with Best Code, Best Product Idea, and Popularity Award."
-          - "Architected a generative web-builder with Next.js and Gemini API to automate deployment to Tencent EdgeOne for MSMEs."
-          - "Tech stack: Next.js, Supabase, Puppeteer, EdgeOne Pages."
+          - "Built infrastructure for deep-research agents to operate over both structured and unstructured data-lake sources."
+          - "Designed an end-to-end pipeline for dataset discovery, automatic integration, and verifiable answer generation with explicit provenance."
+          - "Applied the system to forecasting and analytic questions that combine structured signals with unstructured evidence."
+
+      - name: Targeted Neural Audio Embeddings for Cortical Prediction
+        highlights:
+          - "Built a brain-encoding pipeline that maps Qwen-Audio speech representations to cortical activations by extracting targeted task subspaces from large audio-language embeddings."
+          - "Processed 150k+ audio examples across 15 benchmark datasets to isolate auditory signals such as emotion and reasoning."
+          - "Performed dimensionality sweeps across model architectures to maximize task-relevant signal while suppressing noise."
 
       - name: Unstructured Cloud ELT Pipeline
         url: https://github.com/Austin-Senna/umkm360
@@ -78,6 +85,13 @@ cv:
           - "Built an automated ELT pipeline to ingest chat screenshots into BigQuery using Vision AI for text extraction."
           - "Implemented sentiment and intent classification with BigQuery ML to support analytics and automated response workflows."
           - "Tech stack: BigQuery, Gemini API, Looker Studio, Vision AI, Python."
+
+      - name: Untukmu Karyamu (Tencent Hackathon)
+        url: https://github.com/arkankau/umkm
+        highlights:
+          - "Placed 2nd at Tencent Kepler Plan S3 Competition 2025 with Best Code, Best Product Idea, and Popularity Award."
+          - "Architected a generative web-builder with Next.js and Gemini API to automate deployment to Tencent EdgeOne for MSMEs."
+          - "Tech stack: Next.js, Supabase, Puppeteer, EdgeOne Pages."
 
     Skills:
       - name: Languages
@@ -122,6 +136,9 @@ cv:
 
     Honors and Scholarships:
       - bullet: "**Hack@Brown 2026:** Finalist and awarded 'Strongest Product Thinking,' working with Google Ventures and Partiful."
+      - bullet: "**Millard Chan Technology '99 Startup Competition (2026):** Finalist (Top 6) with ResearcherX."
+      - bullet: "**Columbia Lion Cage Startup Competition (2026):** 2nd Place with ResearcherX."
+      - bullet: "**Tencent Kepler Plan S3 Competition 2025:** 2nd Place (Best Code, Best Product Idea, Popularity Award)."
       - bullet: "**Clash of Champions Season 2:** Top 9 in an academic survival show for top Indonesian students."
       - bullet: "**Indonesia Maju Scholarship:** Full-ride scholarship recipient (Ministry of Education of Indonesia), 1 of 350 recipients."
       - bullet: "**55th International Chemistry Olympiad 2023:** Final stage (10th rank) for national team selection."

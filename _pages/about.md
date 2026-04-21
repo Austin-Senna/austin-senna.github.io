@@ -37,6 +37,15 @@ I am an undergraduate at Columbia University studying computer science, focused 
 
 - Data Engineering Intern at Ruangguru, where I built analytics and automation pipelines across BigQuery, Looker Studio, and large-scale data extraction workflows.
 
-## Featured Projects
+## Selected Projects
 
-- [`ResearcherX`](https://austin-senna.github.io/researcherx-pitch/): AI-powered IDE and GraphRAG engine for academic writing.
+- [`ResearcherX`](https://austin-senna.github.io/researcherx-pitch/): AI-powered IDE and GraphRAG engine for academic writing, with real-time logical contradiction linting and hybrid retrieval over graph and vector stores.
+- [`LakeAgent`](https://daplab.cs.columbia.edu/projects/lakeagent/): deep-research system for answering analytical questions over structured and unstructured data lakes with provenance-backed outputs.
+
+## Honors
+
+- Millard Chan Technology '99 Startup Competition (2026): Finalist (Top 6) with ResearcherX.
+- Columbia Lion Cage Startup Competition (2026): 2nd Place with ResearcherX.
+- Hack@Brown 2026: Finalist and awarded "Strongest Product Thinking," working with Google Ventures and Partiful.
+- Tencent Kepler Plan S3 Competition 2025: 2nd Place, Best Code, Best Product Idea, and Popularity Award.
+- 55th International Chemistry Olympiad 2023: Final Stage (10th Rank) for National Team Selection.
