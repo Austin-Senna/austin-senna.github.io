@@ -2,7 +2,6 @@
 layout: page
 title: projects
 permalink: /projects/
-description: AI, data, and software engineering projects.
 nav: true
 nav_order: 3
 display_categories: [research, ai-data-swe]

@@ -1,0 +1,73 @@
+{% capture profile_name %}
+  {% if site.title == 'blank' %}
+    {{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+{% endcapture %}
+
+<div class="profile-sidebar sticky-top">
+  <a class="profile-sidebar-image-link" href="{{ '/' | relative_url }}" aria-label="{{ profile_name | strip }}">
+    {%
+      include figure.liquid
+      loading="eager"
+      path="assets/img/prof_pic.png"
+      class="profile-sidebar-image"
+      sizes="180px"
+      alt="Austin Senna Wijaya"
+      cache_bust=true
+    %}
+  </a>
+
+  <h2 class="profile-sidebar-name">
+    <a href="{{ '/' | relative_url }}">{{ profile_name | strip }}</a>
+  </h2>
+  <p class="profile-sidebar-role">Computer Science @ Columbia University</p>
+
+  <ul class="profile-sidebar-links" aria-label="Profile links">
+    <li>
+      <span class="profile-sidebar-icon"><i class="fa-solid fa-location-dot"></i></span>
+      <span>New York, NY</span>
+    </li>
+    {% if site.data.socials.email %}
+      <li>
+        <a href="mailto:{{ site.data.socials.email }}">
+          <span class="profile-sidebar-icon"><i class="fa-regular fa-envelope"></i></span>
+          <span>Email</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.data.socials.linkedin_username %}
+      <li>
+        <a href="https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}">
+          <span class="profile-sidebar-icon"><i class="fa-brands fa-linkedin"></i></span>
+          <span>LinkedIn</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.data.socials.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.data.socials.github_username }}">
+          <span class="profile-sidebar-icon"><i class="fa-brands fa-github"></i></span>
+          <span>GitHub</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.data.socials.scholar_userid %}
+      <li>
+        <a href="https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}">
+          <span class="profile-sidebar-icon"><i class="ai ai-google-scholar"></i></span>
+          <span>Google Scholar</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if site.data.socials.cv_pdf %}
+      <li>
+        <a href="{{ site.data.socials.cv_pdf | relative_url }}">
+          <span class="profile-sidebar-icon"><i class="fa-regular fa-file-lines"></i></span>
+          <span>CV</span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</div>

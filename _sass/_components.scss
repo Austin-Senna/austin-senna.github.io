@@ -78,6 +78,20 @@ ul.task-list input[type="checkbox"] {
   margin-right: 1rem;
 }
 
+.status-tag {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.45rem;
+  border: 1px solid var(--global-theme-color);
+  border-radius: 0.25rem;
+  color: var(--global-theme-color);
+  font-size: 0.65rem;
+  font-weight: 700;
+  line-height: 1.3;
+  text-transform: uppercase;
+  vertical-align: 0.12em;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -87,6 +101,102 @@ ul.task-list input[type="checkbox"] {
         display: block;
       }
     }
+  }
+}
+
+// Profile sidebar
+
+.page-with-profile-sidebar {
+  align-items: flex-start;
+}
+
+.profile-sidebar-column {
+  margin-bottom: 2rem;
+}
+
+.profile-sidebar {
+  top: 86px;
+  color: var(--global-text-color-light);
+  text-align: center;
+
+  .profile-sidebar-image-link {
+    display: inline-block;
+    width: min(180px, 65vw);
+    margin-bottom: 1.35rem;
+    border-radius: 0.35rem;
+  }
+
+  picture,
+  img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 0.25rem;
+  }
+
+  .profile-sidebar-name {
+    margin-bottom: 0.7rem;
+    font-family: inherit;
+    font-size: 1.35rem;
+    font-weight: 700;
+    line-height: 1.2;
+
+    a {
+      color: var(--global-text-color);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .profile-sidebar-role {
+    max-width: 16rem;
+    margin: 0 auto 1.4rem;
+    font-size: 1rem;
+    line-height: 1.45;
+  }
+
+  .profile-sidebar-links {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+
+    li,
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      color: var(--global-text-color-light);
+      line-height: 1.2;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+
+  .profile-sidebar-icon {
+    width: 1.35rem;
+    color: var(--global-text-color);
+    text-align: center;
+    font-size: 1.05rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .profile-sidebar-column {
+    display: none;
   }
 }
 
@@ -217,7 +327,6 @@ ul.task-list input[type="checkbox"] {
   .card-body > .row {
     margin-top: auto;
   }
-
 
   .col {
     padding-bottom: 1rem;

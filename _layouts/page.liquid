@@ -10,20 +10,33 @@ layout: default
 
 <div class="post">
   <header class="post-header">
-    {% if page.collection == 'projects' and (page.external or page.github) %}
+    {% assign has_project_links = false %}
+    {% if page.collection == 'projects' %}
+      {% if page.external or page.github %}
+        {% assign has_project_links = true %}
+      {% endif %}
+    {% endif %}
+
+    {% if has_project_links %}
       <div class="post-title-row">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="project-links">
-          {% if page.external %}<a href="{{ page.external }}" target="_blank" rel="noopener">Visit project ↗</a>{% endif %}
+          {% if page.external -%}
+            <a href="{{ page.external }}" target="_blank" rel="noopener">Visit project ↗</a>
+          {%- endif %}
           {% if page.external and page.github %} · {% endif %}
-          {% if page.github %}<a href="{{ page.github }}" target="_blank" rel="noopener">GitHub ↗</a>{% endif %}
+          {% if page.github -%}
+            <a href="{{ page.github }}" target="_blank" rel="noopener">GitHub ↗</a>
+          {%- endif %}
         </p>
       </div>
     {% else %}
       <h1 class="post-title">{{ page.title }}</h1>
     {% endif %}
-    <p class="post-description">{{ page.description }}</p>
-    {% if page.collection == 'projects' %}<hr class="post-divider" />{% endif %}
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+    {% if page.collection == 'projects' %}<hr class="post-divider">{% endif %}
   </header>
 
   <article>
