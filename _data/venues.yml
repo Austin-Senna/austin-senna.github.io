@@ -1,2 +1,11 @@
 bioRxiv:
   url: https://www.biorxiv.org/
+
+ICML:
+  url: https://icml.cc/
+
+DASHSys:
+  url: https://dashsys-workshop-vldb.github.io/
+
+NeurIPS:
+  url: https://neurips.cc/

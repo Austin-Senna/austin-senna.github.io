@@ -30,9 +30,9 @@ I am an undergraduate at Columbia University studying computer science, focused 
 
 ## experience
 
+- <span class="status-tag">current</span> Software Engineer Intern, [Garner Health](https://www.getgarner.com/)
 - <span class="status-tag">current</span> Data Agents Research Assistant, [Columbia Data, Agents, and Processes Lab (DAPLab)](https://daplab.cs.columbia.edu/)
 - <span class="status-tag">current</span> Machine Learning Research Assistant, [Columbia Zuckerman Institute](https://zuckermaninstitute.columbia.edu/)
-- Data Engineering Intern at Ruangguru, where I built analytics and automation pipelines across BigQuery, Looker Studio, and large-scale data extraction workflows.
 
 <h2>
   <a href="/projects/" style="color: inherit">selected projects</a>
