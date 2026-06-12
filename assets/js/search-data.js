@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "Education, research experience, projects, skills, and honors.",
+        },{id: "nav-experience",
+          title: "experience",
+          description: "Research, software engineering, and data engineering roles.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/experience/";
           },
         },{id: "projects-lakeagent",
           title: 'LakeAgent',
