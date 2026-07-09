@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-experience",
           title: "experience",
           description: "Research, software engineering, and data engineering roles.",
@@ -23,26 +30,38 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/experience/";
           },
-        },{id: "projects-lakeagent",
-          title: 'LakeAgent',
-          description: "Deep research over data lakes with verifiable, provenance-backed answers.",
+        },{id: "nav-cv",
+          title: "cv",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
+        },{id: "projects-lakeqa",
+          title: 'LakeQA',
+          description: "An exploratory QA benchmark for LLM agents searching and reasoning over a 9.5 TB data lake.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/lakeagent/";
+              window.location.href = "/projects/lakeqa/";
+            },},{id: "projects-mina",
+          title: 'MINA',
+          description: "Linear-probing benchmark showing frozen DNA encoders recover coding-sequence family signal, not generic context.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/mina/";
             },},{id: "projects-researcherx",
           title: 'ResearcherX',
-          description: "AI-powered IDE and GraphRAG engine for academic writing.",
+          description: "Local-first AI research IDE with graph-based RAG and citation verification.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/researcherx/";
+            },},{id: "projects-sana",
+          title: 'SANA',
+          description: "A diagnostic framework for isolating why QA agents fail over massive data lakes.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/sana/";
             },},{id: "projects-targeted-neural-audio-embeddings",
           title: 'Targeted Neural Audio Embeddings',
           description: "Task-targeted brain encoding from Qwen-Audio speech features to cortical activations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/targeted-neural-audio-embeddings-for-cortical-prediction/";
-            },},{id: "projects-unstructured-cloud-elt",
-          title: 'Unstructured Cloud ELT',
-          description: "Multimodal ELT pipeline for unstructured business communication data.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/unstructured-cloud-elt/";
             },},{id: "projects-untukmu-karyamu",
           title: 'Untukmu Karyamu',
           description: "Generative website builder and deployment workflow for MSMEs.",
@@ -53,7 +72,7 @@ ninja.data = [{
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/Austin_Wijaya_AI-ML_Engineer.pdf", "_blank");
+          window.open("/cv/", "_blank");
         },
       },{
         id: 'social-email',
