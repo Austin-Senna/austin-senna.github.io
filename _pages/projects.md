@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-nav: false
+nav: true
 nav_order: 3
 display_categories: [research, ai-data-swe]
 horizontal: false

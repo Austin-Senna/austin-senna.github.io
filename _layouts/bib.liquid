@@ -9,7 +9,11 @@
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
-          {% capture venue_label %}{{ entry.abbr }}{% if entry.year %} {{ entry.year }}{% endif %}{% endcapture %}
+          {% if entry.venue_label %}
+            {% assign venue_label = entry.venue_label %}
+          {% else %}
+            {% capture venue_label %}{{ entry.abbr }}{% if entry.year %} {{ entry.year }}{% endif %}{% endcapture %}
+          {% endif %}
           <abbr
             class="badge rounded w-100"
             {% if venue_style %}
@@ -24,8 +28,12 @@
           </abbr>
         {% else %}
           <abbr class="badge rounded w-100">
-            {{- entry.abbr -}}
-            {%- if entry.year %} {{ entry.year }}{% endif -%}
+            {% if entry.venue_label %}
+              {{- entry.venue_label -}}
+            {% else %}
+              {{- entry.abbr -}}
+              {%- if entry.year %} {{ entry.year }}{% endif -%}
+            {% endif %}
           </abbr>
         {% endif %}
       {% endif %}
@@ -381,12 +389,12 @@
 
     {% unless entry_note contains 'under review' %}
       {% if entry.bibtex_show %}
-      <!-- Hidden bibtex block -->
-      <div class="bibtex hidden">
-        {% highlight bibtex %}
-        {{- entry.bibtex | hideCustomBibtex -}}
-        {% endhighlight %}
-      </div>
+        <!-- Hidden bibtex block -->
+        <div class="bibtex hidden">
+          {% highlight bibtex %}
+          {{- entry.bibtex | hideCustomBibtex -}}
+          {% endhighlight %}
+        </div>
       {% endif %}
     {% endunless %}
 

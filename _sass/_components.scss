@@ -281,6 +281,54 @@ ul.task-list input[type="checkbox"] {
 
 // CV
 
+.cv-downloads {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.cv-download-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2.5rem 1.5rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.5rem;
+  color: var(--global-text-color);
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out;
+
+  i {
+    margin-bottom: 0.5rem;
+    font-size: 2.25rem;
+    color: var(--global-theme-color);
+  }
+
+  .cv-download-title {
+    font-size: 1.15rem;
+    font-weight: 700;
+  }
+
+  .cv-download-subtitle {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    box-shadow: 0 0 0.5rem 0 var(--global-theme-color);
+  }
+}
+
+@media (max-width: 575.98px) {
+  .cv-downloads {
+    grid-template-columns: 1fr;
+  }
+}
+
 .cv {
   margin-bottom: 40px;
 

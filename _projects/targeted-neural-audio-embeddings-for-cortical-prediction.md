@@ -2,7 +2,7 @@
 layout: page
 title: Targeted Neural Audio Embeddings
 description: Task-targeted brain encoding from Qwen-Audio speech features to cortical activations.
-importance: 2
+importance: 4
 category: research
 ---
 

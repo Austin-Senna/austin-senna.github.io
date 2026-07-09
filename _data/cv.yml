@@ -21,30 +21,41 @@ cv:
         start_date: 2024-08
         end_date: 2028-05
         highlights:
-          - "GPA: 4.25/4.0"
+          - "GPA: 4.22/4.0"
           - Full-tuition scholarship recipient.
           - Dean's List.
           - "Relevant coursework: Natural Language Processing, Data Structures and Algorithms, Systems Programming, Linear Algebra and Probability, Competitive Programming."
 
     Experience:
+      - company: Garner Health
+        position: Software Engineer Intern
+        location: New York, NY
+        start_date: 2026-06
+        highlights:
+          - "Engineered a full-stack observability pipeline with automated dashboard and alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo) to correlate frontend sessions with backend traces."
+          - "Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving 10+ production incidents."
+          - "Tech stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo."
+
       - company: Columbia Data, Agents, and Processes Lab
         position: Data Agents Research Assistant
         location: New York, NY
         start_date: 2025-12
         highlights:
-          - "Contributing to DataSeek, a system providing infrastructure for deep-research agents to operate over TBs of multimodal data; submitted a benchmark paper to ICML 2026."
-          - "Re-architected a legacy discovery tool into a scalable Agentic GraphRAG engine; reduced retrieval complexity to O(N log K) via LSH and Min-Heap Top-K pruning, increasing accuracy by 10% across a 10TB S3 data lake."
-          - "Engineered a parallelized benchmark evaluation framework using AWS Bedrock to test autonomous data tasks and multi-step reasoning, and added agentic tool capabilities to DeepSeek R1."
-          - "Tech stack: Python, SQL, AWS (EC2, S3, Bedrock), Docker."
+          - "Optimized core evaluation infrastructure for question-answering agents over a 9.5 TB/~40M-document data lake, including parallel sandboxed benchmark workers, tool-call and reasoning telemetry, and BM25 and hybrid search engines."
+          - "Improved GPT-5-mini semantic match from 2.22% to 56.3% by adding context compaction, loop-detection plugins, structured search-result context, and stronger data-analysis tools."
+          - "Built an ablation framework that swaps in idealized search, planning, and data-analysis tools to isolate where agents fail on grounded question-answering over long context windows."
+          - "Tech stack: Python, BM25, hybrid search, GPT-5-mini."
 
       - company: Columbia Zuckerman Institute
         position: Machine Learning Research Assistant
         location: New York, NY
         start_date: 2025-12
+        end_date: 2026-06
         highlights:
-          - "Trained linear probes via Ridge Regression on external audio benchmarks to decompose Qwen-Audio-2-7B's latent space into orthogonal feature vectors and map embeddings to ECoG neural signals."
-          - "Engineered an end-to-end GPU-optimized pipeline on HPC clusters (NCSA Delta) to parallelize TTS generation and extract penultimate layer embeddings across hundreds of thousands of inferences."
-          - "Tech stack: Python, PyTorch, HuggingFace, Scikit-learn, NumPy."
+          - "Compressed Qwen2-Audio's 4096-D hidden states into 10-100D feature-specific representations, each preserving one linguistic or paralinguistic feature, such as emotion or reasoning, while suppressing the others."
+          - "Curated training-ready datasets from 12 speech and language benchmarks, including converting text benchmarks into audio through parallel Kokoro-TTS generation."
+          - "Built and parallelized a GPU-optimized PyTorch pipeline for Qwen2-Audio inference and hidden-state extraction, bottleneck-width sweeps, and supervised classification under cross-validation across 12 speech attributes and 120K+ audios."
+          - "Tech stack: Python, PyTorch, Kokoro-TTS."
 
       - company: Ruangguru
         position: Data Engineering Intern
@@ -58,11 +69,12 @@ cv:
           - "Tech stack: Google Cloud (BigQuery, Looker Studio), Apps Script, Puppeteer, HuggingFace."
 
     Projects:
-      - name: "ResearcherX: AI-Powered IDE and GraphRAG Engine"
+      - name: "ResearcherX: Local-First AI Research IDE"
         url: https://github.com/Austin-Senna/ResearcherX
         highlights:
-          - "Developed an AI-powered IDE for academic writing with real-time logical contradiction linting, using a dual-routing FastAPI and litellm pipeline to optimize latency and cost."
-          - "Engineered an asynchronous hybrid-search engine with Neo4j and LanceDB featuring node-level provenance and Cypher-based garbage collection for graph integrity."
+          - "Built a local-first AI research editor that answers against a bounded source library using graph-based RAG, flagging unsupported claims, contradictions, and citation drift in drafts."
+          - "Implemented the retrieval and verification pipeline: turned PDFs, notes, and links into provenance-tracked source nodes, then checked draft paragraphs against relevant evidence with batched LLM calls."
+          - "Engineered an asynchronous hybrid-search engine with Neo4j and LanceDB, using a dual-routing FastAPI and litellm pipeline to balance latency and cost between local and frontier models."
           - "Finalist (Top 6) at the Millard Chan Technology '99 Startup Competition 2026 and 2nd place at the Columbia Lion Cage Startup Competition 2026."
           - "Tech stack: Python (FastAPI), TypeScript (Next.js), Neo4j (Cypher), LanceDB, litellm, ProseMirror."
 
@@ -135,6 +147,8 @@ cv:
           - Notion
 
     Honors and Scholarships:
+      - bullet: "**Databricks Grounded Reasoning Cup 2026:** Columbia representative; worked with Google."
+      - bullet: "**Jane Street Mystery Planet Trading & Puzzle Competition 2026:** 1st Place."
       - bullet: "**Hack@Brown 2026:** Finalist and awarded 'Strongest Product Thinking,' working with Google Ventures and Partiful."
       - bullet: "**Millard Chan Technology '99 Startup Competition (2026):** Finalist (Top 6) with ResearcherX."
       - bullet: "**Columbia Lion Cage Startup Competition (2026):** 2nd Place with ResearcherX."
