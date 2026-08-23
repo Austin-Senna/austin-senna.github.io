@@ -16,19 +16,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
+        },{id: "nav-blog",
+          title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-experience",
-          title: "experience",
-          description: "Research, software engineering, and data engineering roles.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/experience/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-cv",
           title: "cv",
@@ -37,7 +30,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "projects-lakeqa",
+        },{id: "news-i-joined-the-columbia-data-agents-and-processes-lab-daplab-as-an-ai-research-assistant",
+          title: 'I joined the Columbia Data, Agents, and Processes Lab (DAPLab) as an AI...',
+          description: "",
+          section: "News",},{id: "news-researcherx-was-a-finalist-at-the-columbia-millard-chan-technology-startup-competition-and-took-2nd-place-at-the-columbia-lion-cage-startup-competition",
+          title: 'ResearcherX was a finalist at the Columbia Millard Chan Technology Startup Competition and...',
+          description: "",
+          section: "News",},{id: "news-lakeqa-a-benchmark-for-complex-exploratory-qa-over-a-million-scale-data-lake-was-accepted-at-icml-2026",
+          title: 'LakeQA: A Benchmark for Complex Exploratory QA over a Million-Scale Data Lake was...',
+          description: "",
+          section: "News",},{id: "news-i-joined-garner-health-as-a-software-engineer-intern",
+          title: 'I joined Garner Health as a Software Engineer Intern!',
+          description: "",
+          section: "News",},{id: "news-sana-what-matters-for-qa-agents-over-massive-data-lakes-was-accepted-at-vldb-dashsys-2026",
+          title: 'SANA: What Matters for QA Agents over Massive Data Lakes? was accepted at...',
+          description: "",
+          section: "News",},{id: "news-mina-linear-probes-reveal-coding-sequence-family-signal-in-frozen-dna-encoders-was-accepted-at-pmlr-mlcb-2026",
+          title: 'MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders was accepted...',
+          description: "",
+          section: "News",},{id: "projects-lakeqa",
           title: 'LakeQA',
           description: "An exploratory QA benchmark for LLM agents searching and reasoning over a 9.5 TB data lake.",
           section: "Projects",handler: () => {

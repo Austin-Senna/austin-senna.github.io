@@ -28,9 +28,7 @@ Site/config wording emphasizes:
 
 - Columbia University, Bachelor of Science in Computer Science
 - Start: August 2024
-- Graduation date is inconsistent across sources:
-- `_data/cv.yml` says May 2028
-- `assets/pdf/Austin_Wijaya_SWE.pdf` says Expected May 2027
+- Graduation: May 2028 (consistent across `_data/cv.yml` and both PDFs in `assets/pdf/`)
 - GPA listed as 4.22/4.0
 - Full-tuition / full-ride scholarship recipient
 - Dean's List
@@ -43,12 +41,12 @@ Site/config wording emphasizes:
 
 ## Current Roles
 
-- Software Engineer Intern, Garner Health, New York (Jun 2026 - Present)
+- Software Engineer Intern, Garner Health, New York (Jun 2026 - Aug 2026)
 - Engineered a full-stack observability pipeline with automated dashboard/alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo)
 - Architected an autonomous on-call triage AI agent that runs root-cause analysis and generates verifiable fix PRs under zero-PHI guardrails, resolving 10+ production incidents
 - Core stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo
 
-- Data Agents Research Assistant, Columbia Data, Agents, and Processes Lab (DAPLab), New York (Dec 2025 - Present)
+- AI Research Assistant, Columbia Data, Agents, and Processes Lab (DAPLab), New York (Dec 2025 - Present)
 - Optimized core evaluation infrastructure for question-answering agents over a 9.5 TB/~40M-document data lake: parallel sandboxed benchmark workers, tool-call/reasoning telemetry, BM25 and hybrid search
 - Improved GPT-5-mini semantic match from 2.22% to 56.3% via context compaction, loop-detection plugins, structured search-result context, stronger data-analysis tools
 - Built an ablation framework isolating where agents fail on grounded question-answering over long context windows
@@ -56,7 +54,7 @@ Site/config wording emphasizes:
 
 ## Prior Research and Industry Experience
 
-- Machine Learning Research Assistant, Columbia Zuckerman Institute, New York (Dec 2025 - Jun 2026)
+- Machine Learning Research Assistant, Columbia Zuckerman Institute, New York (Dec 2025 - May 2026)
 - Compressed Qwen2-Audio's 4096-D hidden states into 10-100D feature-specific representations, each isolating one linguistic/paralinguistic feature (e.g. emotion, reasoning)
 - Curated training-ready datasets from 12 speech/language benchmarks, converting text benchmarks to audio via parallel Kokoro-TTS generation
 - Built a GPU-optimized PyTorch pipeline for Qwen2-Audio inference, hidden-state extraction, bottleneck-width sweeps, and supervised classification across 12 speech attributes and 120K+ audios
@@ -72,7 +70,7 @@ Site/config wording emphasizes:
 
 - LakeQA: An Exploratory QA Benchmark over a Million-Scale Data Lake — ICML 2026 (Austin is a co-author; title/authors verified against arXiv 2606.10460, do not rephrase from the resume's shorthand wording)
 - SANA: What Matters for QA Agents over Massive Data Lakes? — VLDB DASHSys 2026, arXiv preprint 2606.13904 (Austin is lead author)
-- MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders — bioRxiv preprint (v2), now also under review at iscbAI'26 (Austin is lead author)
+- MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders — PMLR MLCB 2026 (Austin is lead author)
 - Targeted Embeddings: An Interpretable Framework for Neural Speech Encoding with Large Audio-Language Models — NeurIPS 2026, under review (Austin is a co-author; corresponds to the Zuckerman Institute audio-embedding work)
 - Be CARE-ful with Text-to-SQL Benchmarks — NeurIPS 2026, under review (Austin is a co-author)
 
