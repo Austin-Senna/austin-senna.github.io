@@ -30,9 +30,13 @@ I'm an undergraduate at Columbia University studying computer science. Most of m
 
 ## experience
 
-- <span class="status-tag">current</span> Software Engineer Intern, [Garner Health](https://www.getgarner.com/)
-- <span class="status-tag">current</span> Data Agents Research Assistant, [DAPLab](https://daplab.cs.columbia.edu/)
+- Software Engineer Intern, [Garner Health](https://www.getgarner.com/)
+- <span class="status-tag">current</span> AI Research Assistant, [DAPLab](https://daplab.cs.columbia.edu/)
 - Machine Learning Research Assistant, [Columbia Zuckerman Institute](https://zuckermaninstitute.columbia.edu/)
+
+## news
+
+{% include news.liquid %}
 
 <h2>
   <a href="/publications/" style="color: inherit">selected publications</a>

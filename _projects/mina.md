@@ -22,4 +22,4 @@ Python (≥3.11), PyTorch, Hugging Face Transformers, Parquet feature caching, U
 
 ## Context
 
-Austin's own solo research project, built end-to-end independently of his DAPLab and Zuckerman Institute work. Posted as a [bioRxiv preprint (v2)](https://www.biorxiv.org/content/10.64898/2026.05.25.727711v2) and currently under review at iscbAI'26.
+Austin's own solo research project, built end-to-end independently of his DAPLab and Zuckerman Institute work. Published at [MLCB 2026](https://www.biorxiv.org/content/10.64898/2026.05.25.727711v2).

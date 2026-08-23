@@ -2,7 +2,7 @@
 layout: page
 permalink: /experience/
 title: experience
-nav: true
+# nav: true # hidden from navbar; page still live at /experience/ (delete the # to restore)
 nav_order: 5
 description: Research, software engineering, and data engineering roles.
 ---
@@ -11,24 +11,24 @@ description: Research, software engineering, and data engineering roles.
   <section class="experience-entry">
     <div class="experience-org">Garner Health</div>
     <div class="experience-heading">
-      <h2>Software Engineer Intern <span class="status-tag">current</span></h2>
-      <div class="experience-meta">New York, NY · Jun 2026 - Present</div>
+      <h2>Software Engineer Intern</h2>
+      <div class="experience-meta">New York, NY · Jun 2026 - Aug 2026</div>
     </div>
     <ul>
       <li>Engineered a full-stack observability pipeline with automated dashboard and alert provisioning, using distributed tracing across <strong>Datadog</strong> RUM/Replay and <strong>OpenTelemetry</strong> (Loki, Prometheus, Tempo) to correlate frontend sessions with backend traces.</li>
-      <li>Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving <strong>10+</strong> production incidents.</li>
+      <li>Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving <strong>15+</strong> production incidents.</li>
     </ul>
   </section>
 
   <section class="experience-entry">
     <div class="experience-org">Columbia Data, Agents, and Processes Lab</div>
     <div class="experience-heading">
-      <h2>Data Agents Research Assistant <span class="status-tag">current</span></h2>
+      <h2>AI Research Assistant <span class="status-tag">current</span></h2>
       <div class="experience-meta">New York, NY · Dec 2025 - Present</div>
     </div>
     <ul>
       <li>Optimized core evaluation infrastructure for question-answering agents over a <strong>9.5 TB</strong>/<strong>~40M</strong>-document data lake, including parallel sandboxed benchmark workers, tool-call and reasoning telemetry, and <strong>BM25</strong> and hybrid search engines.</li>
-      <li>Improved <strong>GPT-5-mini</strong> semantic match from <strong>2.22%</strong> to <strong>56.3%</strong> by adding context compaction, loop-detection plugins, structured search-result context, and stronger data-analysis tools.</li>
+      <li>Improved <strong>GPT-5-mini</strong> semantic match from <strong>5.16%</strong> to <strong>56.3%</strong> by adding context compaction, loop-detection plugins, structured search-result context, and stronger data-analysis tools.</li>
       <li>Built an ablation framework that swaps in idealized search, planning, and data-analysis tools to isolate where agents fail on grounded question-answering over long context windows.</li>
     </ul>
   </section>
@@ -37,7 +37,7 @@ description: Research, software engineering, and data engineering roles.
     <div class="experience-org">Columbia Zuckerman Institute</div>
     <div class="experience-heading">
       <h2>Machine Learning Research Assistant</h2>
-      <div class="experience-meta">New York, NY · Dec 2025 - Jun 2026</div>
+      <div class="experience-meta">New York, NY · Dec 2025 - May 2026</div>
     </div>
     <ul>
       <li>Compressed <strong>Qwen2-Audio</strong>'s <strong>4096-D</strong> hidden states into <strong>10-100D</strong> feature-specific representations, each preserving one linguistic or paralinguistic feature — such as emotion or reasoning — while suppressing the others.</li>

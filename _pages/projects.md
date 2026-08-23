@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-nav: true
+# nav: true # hidden from navbar; page still live at /projects/ (delete the # to restore)
 nav_order: 3
 display_categories: [research, ai-data-swe]
 horizontal: false

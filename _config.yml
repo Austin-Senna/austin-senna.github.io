@@ -141,6 +141,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  news:
+    output: false # all items are inline; no per-item pages, no /news/ archive
   projects:
     output: true
 
