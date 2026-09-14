@@ -74,6 +74,11 @@ Site/config wording emphasizes:
 - Targeted Embeddings: An Interpretable Framework for Neural Speech Encoding with Large Audio-Language Models — NeurIPS 2026, under review (Austin is a co-author; corresponds to the Zuckerman Institute audio-embedding work)
 - Be CARE-ful with Text-to-SQL Benchmarks — NeurIPS 2026, under review (Austin is a co-author)
 
+## Talks And Writing
+
+- Presented SANA at VLDB DASHSys 2026 (Sept 2026). Annotated slides with speaker notes are hosted on this site at `/sana-annotated-talk/`
+- Blog post: "What Matters for Question Answering Agents over Massive Data Lakes?" — DAPLab blog, Sept 10, 2026, https://daplab.cs.columbia.edu/general/2026/09/10/sana-qa-agents-over-data-lakes.html (Austin is lead author, with Jiaxiang Liu, Haonan Wang, and Eugene Wu). This is the SANA write-up
+
 ## Projects
 
 ### ResearcherX
@@ -156,6 +161,7 @@ Multimodal ELT pipeline for unstructured business communication data.
 - `Austin-Senna/ResearcherX`
 - `/cv/` is a simple two-button download page (not a rendered CV): "General CV" links to `assets/pdf/Austin_Wijaya_SWE.pdf`, "Research CV" links to `assets/pdf/Austin_Wijaya_Research.pdf`
 - The sidebar "CV" icon (`_data/socials.yml` `cv_pdf` field) links to `/cv/`, not directly to a PDF
+- `/blog/` lists external write-ups rather than hosting posts; `_posts/` is empty
 
 ## Source Files Used
 
