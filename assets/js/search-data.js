@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "blog",
-          description: "Write-ups on agentic systems, retrieval, and the research behind them.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
