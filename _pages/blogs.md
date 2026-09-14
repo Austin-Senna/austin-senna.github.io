@@ -4,12 +4,10 @@ permalink: /blog/
 title: blog
 nav: true
 nav_order: 4
-description: Write-ups on agentic systems, retrieval, and the research behind them.
 ---
 
 <div class="writing-list">
   <article class="writing-entry">
-    <div class="writing-venue">DAPLab Blog</div>
     <div class="writing-heading">
       <h2>
         <a href="https://daplab.cs.columbia.edu/general/2026/09/10/sana-qa-agents-over-data-lakes.html">What Matters for Question Answering Agents over Massive Data Lakes?</a>
@@ -17,9 +15,8 @@ description: Write-ups on agentic systems, retrieval, and the research behind th
       <div class="writing-meta">Sep 10, 2026</div>
     </div>
     <p>
-      A walkthrough of SANA, our evaluation framework for question-answering agents over massive data lakes. It swaps in
-      oracle implementations of search, planning, and data analysis to measure what each component actually contributes,
-      and isolates where agents break down. Written with Jiaxiang Liu, Haonan Wang, and Eugene Wu.
+      A walkthrough of SANA, our evaluation framework for question-answering agents over massive data lakes that isolates
+      where agents break down with oracle implementations of planning, searching, and data analysis.
     </p>
     <p class="writing-links">
       <a href="https://arxiv.org/abs/2606.13904">Paper</a>
@@ -27,5 +24,3 @@ description: Write-ups on agentic systems, retrieval, and the research behind th
     </p>
   </article>
 </div>
-
-<p class="writing-note">More write-ups on agentic systems and retrieval are on the way.</p>
