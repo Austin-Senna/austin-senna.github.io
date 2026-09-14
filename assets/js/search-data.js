@@ -18,7 +18,7 @@ ninja.data = [{
           },
         },{id: "nav-blog",
           title: "blog",
-          description: "",
+          description: "Write-ups on agentic systems, retrieval, and the research behind them.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
@@ -48,7 +48,7 @@ ninja.data = [{
           section: "News",},{id: "news-mina-linear-probes-reveal-coding-sequence-family-signal-in-frozen-dna-encoders-was-accepted-at-mlcb-2026",
           title: 'MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders was accepted...',
           description: "",
-          section: "News",},{id: "news-i-presented-sana-what-matters-for-qa-agents-over-massive-data-lakes-at-vldb-dashsys-2026-annotated-slides-here",
+          section: "News",},{id: "news-i-presented-sana-what-matters-for-qa-agents-over-massive-data-lakes-at-vldb-dashsys-2026-annotated-slides-are-here-and-i-wrote-the-work-up-on-the-daplab-blog",
           title: 'I presented SANA: What Matters for QA Agents over Massive Data Lakes? at...',
           description: "",
           section: "News",},{id: "projects-lakeqa",
