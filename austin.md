@@ -176,11 +176,11 @@ Multimodal ELT pipeline for unstructured business communication data.
 ## Ignore These Default Or Placeholder Files
 
 - `assets/json/resume.json` is still the Albert Einstein theme placeholder, not Austin's resume
-- `assets/rendercv/rendercv_output/` holds the PDF auto-generated from `_data/cv.yml` by the `render-cv.yml` workflow; it is not a hand-maintained CV
 
 ## Usage Guidance For Future Answers
 
 - Treat this file plus `_data/cv.yml` as the primary source of truth for Austin's background
+- `assets/pdf/Austin_Wijaya_SWE.pdf` and `assets/pdf/Austin_Wijaya_Research.pdf` are the hand-maintained CVs linked from `/cv/`; `_data/cv.yml` is structured data only and is not rendered anywhere
 - Use the project markdown files for richer project-specific details
 - If graduation year matters, call out the repo inconsistency instead of guessing
-- Do not use `assets/json/resume.json` or the RenderCV output PDF as biography context
+- Do not use `assets/json/resume.json` as biography context
