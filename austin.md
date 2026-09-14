@@ -41,16 +41,16 @@ Site/config wording emphasizes:
 
 ## Current Roles
 
-- Software Engineer Intern, Garner Health, New York (Jun 2026 - Aug 2026)
-- Engineered a full-stack observability pipeline with automated dashboard/alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo)
-- Architected an autonomous on-call triage AI agent that runs root-cause analysis and generates verifiable fix PRs under zero-PHI guardrails, resolving 10+ production incidents
-- Core stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo
-
 - AI Research Assistant, Columbia Data, Agents, and Processes Lab (DAPLab), New York (Dec 2025 - Present)
 - Optimized core evaluation infrastructure for question-answering agents over a 9.5 TB/~40M-document data lake: parallel sandboxed benchmark workers, tool-call/reasoning telemetry, BM25 and hybrid search
 - Improved GPT-5-mini semantic match from 2.22% to 56.3% via context compaction, loop-detection plugins, structured search-result context, stronger data-analysis tools
 - Built an ablation framework isolating where agents fail on grounded question-answering over long context windows
 - Core stack: Python, BM25, hybrid search, GPT-5-mini
+
+- Software Engineer Intern, Garner Health, New York (Jun 2026 - Aug 2026)
+- Engineered a full-stack observability pipeline with automated dashboard/alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo)
+- Architected an autonomous on-call triage AI agent that runs root-cause analysis and generates verifiable fix PRs under zero-PHI guardrails, resolving 10+ production incidents
+- Core stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo
 
 ## Prior Research and Industry Experience
 

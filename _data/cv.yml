@@ -27,15 +27,6 @@ cv:
           - "Relevant coursework: Natural Language Processing, Data Structures and Algorithms, Systems Programming, Linear Algebra and Probability, Competitive Programming."
 
     Experience:
-      - company: Garner Health
-        position: Software Engineer Intern
-        location: New York, NY
-        start_date: 2026-06
-        highlights:
-          - "Engineered a full-stack observability pipeline with automated dashboard and alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo) to correlate frontend sessions with backend traces."
-          - "Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving 10+ production incidents."
-          - "Tech stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo."
-
       - company: Columbia Data, Agents, and Processes Lab
         position: Data Agents Research Assistant
         location: New York, NY
@@ -45,6 +36,15 @@ cv:
           - "Improved GPT-5-mini semantic match from 2.22% to 56.3% by adding context compaction, loop-detection plugins, structured search-result context, and stronger data-analysis tools."
           - "Built an ablation framework that swaps in idealized search, planning, and data-analysis tools to isolate where agents fail on grounded question-answering over long context windows."
           - "Tech stack: Python, BM25, hybrid search, GPT-5-mini."
+
+      - company: Garner Health
+        position: Software Engineer Intern
+        location: New York, NY
+        start_date: 2026-06
+        highlights:
+          - "Engineered a full-stack observability pipeline with automated dashboard and alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo) to correlate frontend sessions with backend traces."
+          - "Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving 10+ production incidents."
+          - "Tech stack: Datadog (RUM, Replay), OpenTelemetry, Loki, Prometheus, Tempo."
 
       - company: Columbia Zuckerman Institute
         position: Machine Learning Research Assistant
