@@ -176,7 +176,7 @@ Multimodal ELT pipeline for unstructured business communication data.
 ## Ignore These Default Or Placeholder Files
 
 - `assets/json/resume.json` is still the Albert Einstein theme placeholder, not Austin's resume
-- `assets/rendercv/rendercv_output/Albert_Einstein_CV.pdf` is also placeholder output
+- `assets/rendercv/rendercv_output/` holds the PDF auto-generated from `_data/cv.yml` by the `render-cv.yml` workflow; it is not a hand-maintained CV
 
 ## Usage Guidance For Future Answers
 

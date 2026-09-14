@@ -1,10 +1,7 @@
 cv:
   name: Austin Senna Wijaya
-  label: Computer Science Student and Research Assistant
   email: asw2215@columbia.edu
   location: New York, NY
-  image: ""
-  summary: Undergraduate researcher focused on agentic systems, machine learning, and large-scale data infrastructure.
 
   social_networks:
     - network: GitHub
@@ -17,7 +14,7 @@ cv:
       - institution: Columbia University
         location: New York, NY
         area: Computer Science
-        studyType: Bachelor of Science
+        degree: BS
         start_date: 2024-08
         end_date: 2028-05
         highlights:
@@ -41,6 +38,7 @@ cv:
         position: Software Engineer Intern
         location: New York, NY
         start_date: 2026-06
+        end_date: 2026-08
         highlights:
           - "Engineered a full-stack observability pipeline with automated dashboard and alert provisioning, using distributed tracing across Datadog RUM/Replay and OpenTelemetry (Loki, Prometheus, Tempo) to correlate frontend sessions with backend traces."
           - "Architected an autonomous on-call triage AI agent that ingests cross-stack telemetry to run root-cause analysis and generate verifiable fix pull requests under zero-PHI guardrails, resolving 10+ production incidents."
@@ -106,45 +104,17 @@ cv:
           - "Tech stack: Next.js, Supabase, Puppeteer, EdgeOne Pages."
 
     Skills:
-      - name: Languages
-        keywords:
-          - Python
-          - SQL
-          - JavaScript
-          - Java
-          - C
-          - Rust
+      - label: Languages
+        details: Python, SQL, JavaScript, Java, C, Rust
 
-      - name: Libraries and Frameworks
-        keywords:
-          - Pandas
-          - NumPy
-          - PyTorch
-          - Scikit-learn
-          - Puppeteer
-          - Selenium
-          - BeautifulSoup
-          - React
-          - Next.js
-          - Node.js
+      - label: Libraries and Frameworks
+        details: Pandas, NumPy, PyTorch, Scikit-learn, Puppeteer, Selenium, BeautifulSoup, React, Next.js, Node.js
 
-      - name: Cloud and Databases
-        keywords:
-          - Google Cloud (BigQuery, Looker Studio)
-          - AWS (EC2, S3, Bedrock)
-          - Supabase
-          - PostgreSQL
-          - MongoDB
+      - label: Cloud and Databases
+        details: Google Cloud (BigQuery, Looker Studio), AWS (EC2, S3, Bedrock), Supabase, PostgreSQL, MongoDB
 
-      - name: Tools
-        keywords:
-          - GitHub
-          - Docker
-          - Claude Code
-          - n8n
-          - Copilot
-          - Arduino
-          - Notion
+      - label: Tools
+        details: GitHub, Docker, Claude Code, n8n, Copilot, Arduino, Notion
 
     Honors and Scholarships:
       - bullet: "**Databricks Grounded Reasoning Cup 2026:** Columbia representative; worked with Google."
