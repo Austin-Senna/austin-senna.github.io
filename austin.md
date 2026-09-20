@@ -28,7 +28,7 @@ Site/config wording emphasizes:
 
 - Columbia University, Bachelor of Science in Computer Science
 - Start: August 2024
-- Graduation: May 2028 (consistent across `_data/cv.yml` and both PDFs in `assets/pdf/`)
+- Graduation: May 2028 (consistent across `_data/cv.yml` and all three PDFs in `assets/pdf/`)
 - GPA listed as 4.22/4.0
 - Full-tuition / full-ride scholarship recipient
 - Dean's List
@@ -159,7 +159,7 @@ Multimodal ELT pipeline for unstructured business communication data.
 - Repositories explicitly highlighted on the site:
 - `Austin-Senna/austin-senna.github.io`
 - `Austin-Senna/ResearcherX`
-- `/cv/` is a simple two-button download page (not a rendered CV): "General CV" links to `assets/pdf/Austin_Wijaya_SWE.pdf`, "Research CV" links to `assets/pdf/Austin_Wijaya_Research.pdf`
+- `/cv/` is a simple three-button download page (not a rendered CV): "Software Engineering CV" links to `assets/pdf/Austin_Wijaya_SWE.pdf`, "AI/ML CV" links to `assets/pdf/Austin_Wijaya_AI_ML.pdf`, "Research CV" links to `assets/pdf/Austin_Wijaya_Research.pdf`
 - The sidebar "CV" icon (`_data/socials.yml` `cv_pdf` field) links to `/cv/`, not directly to a PDF
 - `/blog/` lists external write-ups rather than hosting posts; `_posts/` is empty
 
@@ -178,6 +178,8 @@ Multimodal ELT pipeline for unstructured business communication data.
 - `_projects/unstructured-cloud-elt.md`
 - `_data/repositories.yml`
 - `assets/pdf/Austin_Wijaya_SWE.pdf`
+- `assets/pdf/Austin_Wijaya_AI_ML.pdf`
+- `assets/pdf/Austin_Wijaya_Research.pdf`
 
 ## Ignore These Default Or Placeholder Files
 
@@ -186,7 +188,7 @@ Multimodal ELT pipeline for unstructured business communication data.
 ## Usage Guidance For Future Answers
 
 - Treat this file plus `_data/cv.yml` as the primary source of truth for Austin's background
-- `assets/pdf/Austin_Wijaya_SWE.pdf` and `assets/pdf/Austin_Wijaya_Research.pdf` are the hand-maintained CVs linked from `/cv/`; `_data/cv.yml` is structured data only and is not rendered anywhere
+- `assets/pdf/Austin_Wijaya_SWE.pdf`, `assets/pdf/Austin_Wijaya_AI_ML.pdf`, and `assets/pdf/Austin_Wijaya_Research.pdf` are the hand-maintained CVs linked from `/cv/`; `_data/cv.yml` is structured data only and is not rendered anywhere
 - Use the project markdown files for richer project-specific details
 - If graduation year matters, call out the repo inconsistency instead of guessing
 - Do not use `assets/json/resume.json` as biography context
