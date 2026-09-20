@@ -283,7 +283,7 @@ ul.task-list input[type="checkbox"] {
 
 .cv-downloads {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.25rem;
   margin-top: 1.5rem;
 }
@@ -323,7 +323,7 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px) {
   .cv-downloads {
     grid-template-columns: 1fr;
   }
