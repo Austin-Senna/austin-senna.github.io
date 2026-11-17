@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
+        },{id: "nav-projects",
+          title: "projects",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -45,22 +52,23 @@ ninja.data = [{
           section: "News",},{id: "news-sana-what-matters-for-qa-agents-over-massive-data-lakes-was-accepted-at-vldb-dashsys-2026",
           title: 'SANA: What Matters for QA Agents over Massive Data Lakes? was accepted at...',
           description: "",
-          section: "News",},{id: "news-mina-linear-probes-reveal-coding-sequence-family-signal-in-frozen-dna-encoders-was-accepted-at-mlcb-2026",
-          title: 'MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders was accepted...',
+          section: "News",},{id: "news-mina-do-frozen-dna-encoders-beat-sequence-composition-a-homology-aware-linear-probe-benchmark-was-accepted-at-mlcb-2026",
+          title: 'MINA: Do Frozen DNA Encoders Beat Sequence Composition? A Homology-Aware Linear-Probe Benchmark was...',
           description: "",
           section: "News",},{id: "news-i-presented-sana-what-matters-for-qa-agents-over-massive-data-lakes-at-vldb-dashsys-2026-annotated-slides-are-here-and-i-wrote-the-work-up-on-the-daplab-blog",
           title: 'I presented SANA: What Matters for QA Agents over Massive Data Lakes? at...',
+          description: "",
+          section: "News",},{id: "news-be-care-ful-with-text-to-sql-benchmarks-was-accepted-at-neurips-2026",
+          title: 'Be CARE-ful with Text-to-SQL Benchmarks was accepted at NeurIPS 2026!',
+          description: "",
+          section: "News",},{id: "news-i-presented-mina-do-frozen-dna-encoders-beat-sequence-composition-a-homology-aware-linear-probe-benchmark-at-mlcb-2026-here-are-the-poster-and-the-annotated-talk",
+          title: 'I presented MINA: Do Frozen DNA Encoders Beat Sequence Composition? A Homology-Aware Linear-Probe...',
           description: "",
           section: "News",},{id: "projects-lakeqa",
           title: 'LakeQA',
           description: "An exploratory QA benchmark for LLM agents searching and reasoning over a 9.5 TB data lake.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lakeqa/";
-            },},{id: "projects-mina",
-          title: 'MINA',
-          description: "Linear-probing benchmark showing frozen DNA encoders recover coding-sequence family signal, not generic context.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/mina/";
             },},{id: "projects-researcherx",
           title: 'ResearcherX',
           description: "Local-first AI research IDE with graph-based RAG and citation verification.",

@@ -70,7 +70,7 @@ Site/config wording emphasizes:
 
 - LakeQA: An Exploratory QA Benchmark over a Million-Scale Data Lake — ICML 2026 (Austin is a co-author; title/authors verified against arXiv 2606.10460, do not rephrase from the resume's shorthand wording)
 - SANA: What Matters for QA Agents over Massive Data Lakes? — VLDB DASHSys 2026, arXiv preprint 2606.13904 (Austin is lead author)
-- MINA: Linear Probes Reveal Coding-Sequence Family Signal in Frozen DNA Encoders — PMLR MLCB 2026 (Austin is lead author)
+- MINA: Do Frozen DNA Encoders Beat Sequence Composition? A Homology-Aware Linear-Probe Benchmark — PMLR MLCB 2026 (Austin is lead author)
 - Targeted Embeddings: An Interpretable Framework for Neural Speech Encoding with Large Audio-Language Models — NeurIPS 2026, under review (Austin is a co-author; corresponds to the Zuckerman Institute audio-embedding work)
 - Be CARE-ful with Text-to-SQL Benchmarks — NeurIPS 2026, under review (Austin is a co-author)
 
