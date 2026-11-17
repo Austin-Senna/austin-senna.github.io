@@ -654,3 +654,101 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
+// Projects page
+
+.showcase-list {
+  display: grid;
+  gap: 0;
+  margin-top: 1.25rem;
+}
+
+.showcase-entry {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.35rem 0;
+  border-top: 1px solid var(--global-divider-color);
+
+  &:first-child {
+    padding-top: 0;
+    border-top: 0;
+  }
+
+  .showcase-image {
+    display: block;
+    overflow: hidden;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 0.4rem;
+    transition: transform 0.15s ease;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  h2 {
+    margin: 0 0 0.35rem;
+    font-family: inherit;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.25;
+  }
+
+  p {
+    margin: 0;
+    color: var(--global-text-color);
+    font-size: 0.98rem;
+    line-height: 1.5;
+  }
+
+  .showcase-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 0.5rem;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .showcase-entry {
+    grid-template-columns: 1fr;
+    gap: 0.9rem;
+  }
+}
+
+// Home page experience list: dates pushed right, de-emphasized
+
+.home-experience {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+  .status-tag {
+    margin-left: 0;
+    margin-right: 0.25rem;
+  }
+
+  .home-experience-dates {
+    flex: 0 0 auto;
+    color: var(--global-text-color-light);
+    font-size: 0.82rem;
+    white-space: nowrap;
+  }
+}

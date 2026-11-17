@@ -2,69 +2,36 @@
 layout: page
 title: projects
 permalink: /projects/
-# nav: true # hidden from navbar; page still live at /projects/ (delete the # to restore)
-nav_order: 3
-display_categories: [research, ai-data-swe]
-horizontal: false
+nav: true
+nav_order: 5
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {% for category in page.display_categories %}
-  {% assign category_label = category %}
-  {% if category == 'research' %}
-    {% assign category_label = 'Research' %}
-  {% elsif category == 'ai-data-swe' %}
-    {% assign category_label = 'Personal' %}
-  {% endif %}
-  <a id="{{ category }}" href=".#{{ category }}">
-    <h2 class="category category-{{ category }}">{{ category_label }}</h2>
-  </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal %}
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+<div class="showcase-list">
+  <article class="showcase-entry">
+    <a class="showcase-image" href="https://austin-senna.github.io/researcherx-pitch/">
+      <img src="{{ '/assets/img/projects/researcherx-editor.jpg' | relative_url }}" alt="ResearcherX editor flagging a paragraph that conflicts with its cited source" loading="lazy">
+    </a>
+    <div>
+      <h2><a href="https://austin-senna.github.io/researcherx-pitch/">ResearcherX</a></h2>
+      <p>A local-first research editor that checks your draft against your sources and flags claims they don't support.</p>
+      <p class="showcase-links">
+        <a href="https://austin-senna.github.io/researcherx-pitch/">Site</a>
+        <a href="https://github.com/Austin-Senna/ResearcherX">Code</a>
+      </p>
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-  {% endfor %}
+  </article>
 
-{% else %}
-
-<!-- Display projects without categories -->
-
-{% assign sorted_projects = site.projects | sort: "importance" %}
-
-  <!-- Generate cards for each project -->
-
-{% if page.horizontal %}
-
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
-      {% include projects_horizontal.liquid %}
-    {% endfor %}
+  <article class="showcase-entry">
+    <a class="showcase-image" href="https://marketplace.visualstudio.com/items?itemName=AustinSenna.digimon-buddy">
+      <img src="{{ '/assets/img/projects/digimon-buddy.jpg' | relative_url }}" alt="VS Code with the Digimon Buddy panel open beside the editor, showing Agumon and its stats" loading="lazy">
+    </a>
+    <div>
+      <h2><a href="https://marketplace.visualstudio.com/items?itemName=AustinSenna.digimon-buddy">Digimon Buddy</a></h2>
+      <p>A V-Pet Digimon for VS Code that grows while you and Claude Code work.</p>
+      <p class="showcase-links">
+        <a href="https://marketplace.visualstudio.com/items?itemName=AustinSenna.digimon-buddy">VS Code extension</a>
+        <a href="https://github.com/Austin-Senna/digimon-vscode">Code</a>
+      </p>
     </div>
-  </div>
-  {% else %}
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
-    {% endfor %}
-  </div>
-  {% endif %}
-{% endif %}
+  </article>
 </div>
