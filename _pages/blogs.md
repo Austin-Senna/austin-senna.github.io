@@ -19,7 +19,7 @@ nav_order: 4
       where agents break down with oracle implementations of planning, searching, and data analysis.
     </p>
     <p class="writing-links">
-      <a href="https://arxiv.org/abs/2606.13904">Paper</a>
+      <a href="https://vldb.org/2026/Workshops/VLDB-Workshops-2026/DASHSys/DASHSys26_36.pdf">Paper</a>
       <a href="{{ '/sana-annotated-talk/' | relative_url }}">Annotated talk slides</a>
     </p>
   </article>

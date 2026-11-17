@@ -18,4 +18,4 @@ github: https://github.com/Austin-Senna/exploratory-qa-eval
 
 ## Context
 
-Research led as a Data Agents Research Assistant at the Columbia Data, Agents, and Processes Lab (DAPLab), submitted to VLDB DASHSys 2026 and currently under review. Read the preprint on [arXiv](https://arxiv.org/abs/2606.13904).
+Research led as a Data Agents Research Assistant at the Columbia Data, Agents, and Processes Lab (DAPLab), accepted to and presented at VLDB DASHSys 2026. Read the paper in the [DASHSys proceedings](https://vldb.org/2026/Workshops/VLDB-Workshops-2026/DASHSys/DASHSys26_36.pdf).

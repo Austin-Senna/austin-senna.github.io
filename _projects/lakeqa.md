@@ -17,4 +17,4 @@ external: https://lakeqa-bench.github.io/
 
 ## Context
 
-Co-authored with the Columbia Data, Agents, and Processes Lab (DAPLab) research group as one of fourteen contributors; accepted to ICML 2026. Read the full paper, ["LakeQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"](https://arxiv.org/abs/2606.10460), on arXiv.
+Co-authored with the Columbia Data, Agents, and Processes Lab (DAPLab) research group as one of fourteen contributors; accepted to ICML 2026. Read the full paper, ["LakeQA: An Exploratory QA Benchmark over a Million-Scale Data Lake"](https://openreview.net/forum?id=gWoEOFW0CR), on OpenReview.
